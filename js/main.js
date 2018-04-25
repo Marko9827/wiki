@@ -25,4 +25,3 @@ document.onkeydown = function (event) {
 }     
 
 
-$("#checkbox-5").prop("indeterminate", true);
