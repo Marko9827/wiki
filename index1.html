@@ -7,6 +7,7 @@
     <meta name="author" content="">
     <link rel="icon" href="http://eronelit.com/logo.ico">
 
+
     <title>4354354354935493543</title>
 
     <!-- Bootstrap core CSS -->
@@ -14,14 +15,21 @@
 
     <!-- Custom styles for this template -->
     <link href="js/signin.css" rel="stylesheet">
+    <link href="css/styleE.css" rel="stylesheet" />
+    <link href="fonts/D3/D3.css" rel="stylesheet"/>
 </head>
 
-<body class="text-center"    onkeydown="return false;" onkeypress="return false;" onkeyup="return false;" style="background: white;">
+<body class="text-center" onkeydown="return false;" onkeypress="return false;" onkeyup="return false;" style="background: white;">
+    <canvas id="dotty" style="z-index: -1; position:absolute;"></canvas>
     <form class="form-signin">
-        <img class="mb-4" src="http://eronelit.com/logo.ico" alt="" width="72" height="72">
-        <h1 class="h3 mb-3 font-weight-normal">
+    
+     <h1 class="hbl">
+         <a class="hbl" style="font-family: 'D3'; font-weight: normal; font-style: normal;" >E</a>
+     </h1> 
+        <h1 class="h3 mb-3 font-weight-normal" >
             This page requires access parameters!
         </h1>
+
         <label for="inputEmail" class="sr-only">Email address</label>
         <input onkeypress="return runScript(event)" type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
         <label for="inputPassword" class="sr-only">Password</label>
@@ -41,10 +49,9 @@
         <script>
             function idemo() {
 
-                if ((document.getElementById("password").value == 'marko9827') || (document.getElementById("inputEmail").value == 'marko.supergun@gmail.com'))
-                {
+                if ((document.getElementById("password").value == 'marko9827') || (document.getElementById("inputEmail").value == 'marko.supergun@gmail.com')) {
                     window.location.href = 'js/app3/index.html';
-              
+
                 } else {
                     //   alert('wrong password!!');
                     alert("Wrong Password!");
@@ -54,7 +61,7 @@
 
             }
 
-          
+
             function disableCtrlKeyCombination(e) {
                 //list all CTRL + key combinations you want to disable
                 var forbiddenKeys = new Array('a', 'n', 'c', 'x', 'v', 'j', 'w');
@@ -84,7 +91,7 @@
                         }
                     }
                 }
-            
+
             }
 
 
@@ -121,6 +128,7 @@
 
 
 
- <script src="js/main.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/app3/js/dotty-2.js"></script>
 </body>
 </html>
