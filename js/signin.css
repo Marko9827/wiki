@@ -1,90 +1,110 @@
 html,
 body {
-  height: 100%;
+    height: 100%;
 }
 
+
+
+
+.hbl {
+    font-family: 'D3';
+    font-weight: normal;
+    font-size: 60px;
+}
+
+
+
+
+
 body {
-  display: -ms-flexbox;
-  display: -webkit-box;
-  display: flex;
-  -ms-flex-align: center;
-  -ms-flex-pack: center;
-  -webkit-box-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  justify-content: center;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  background-color: #f5f5f5;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    -ms-flex-align: center;
+    -ms-flex-pack: center;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #f5f5f5;
 }
 
 .form-signin {
-  width: 100%;
-  max-width: 330px;
-  padding: 15px;
-  margin: 0 auto;
-}
-.form-signin .checkbox {
-  font-weight: 400;
-}
-.form-signin .form-control {
-  position: relative;
-  box-sizing: border-box;
-  height: auto;
-  padding: 10px;
-  font-size: 16px;
-}
-.form-signin .form-control:focus {
-  z-index: 2;
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
 }
 
-.form-signin h1{
-  color: #bf9b30;
-  font-size: 19px;
-}
-.form-signin input[type="email"] {
-  margin-bottom: -1px;
-  border-bottom-right-radius: 0;
-  border-bottom-left-radius: 0;
-}
-.form-signin input[type="password"] {
-  margin-bottom: 10px;
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
-}
+    .form-signin .checkbox {
+        font-weight: 400;
+    }
+
+    .form-signin .form-control {
+        position: relative;
+        box-sizing: border-box;
+        height: auto;
+        padding: 10px;
+        font-size: 16px;
+    }
+
+        .form-signin .form-control:focus {
+            z-index: 2;
+        }
+
+    .form-signin h1 {
+        color: #bf9b30;
+        font-size: 19px;
+    }
+
+    .form-signin input[type="email"] {
+        margin-bottom: -1px;
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+
+    .form-signin input[type="password"] {
+        margin-bottom: 10px;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+    }
+
 #password {
+    background-color: rgba(255, 255, 255, 0.80);
     border-bottom-left-radius: 25px;
-      border-bottom-right-radius: 25px;
-
-    border-left: 4px #bf9b30 solid;
-     border-right: 4px #bf9b30 solid;
+    border-bottom-right-radius: 25px;
+    border-left: 4px rgba(191, 155, 48, 0.80) solid;
+    border-right: 4px rgba(191, 155, 48, 0.80) solid;
 }
-#inputEmail{
+
+#inputEmail {
+    background-color: rgba(255, 255, 255, 0.80);
     border-top-left-radius: 25px;
-      border-top-right-radius: 25px;
-
-    border-left: 4px #bf9b30 solid;
-     border-right: 4px #bf9b30 solid;
-
-}
-#button{
-  background: #bf9b30;
-  border: 2px white solid;
-   border-top-left-radius: 65px;
-      border-bottom-right-radius:  65px;
-  
- 
-  margin-top: 10px;
+    border-top-right-radius: 25px;
+    border-left: 4px rgba(191, 155, 48, 0.80) solid;
+    border-right: 4px rgba(191, 155, 48, 0.80) solid;
 }
 
-#button:hover{
-  border: 2px #c1a656 solid;
+#button {
+    background: rgba(191, 155, 48, 0.80);
+    border: 2px rgba(255, 106, 0, 0.00) solid;
+    border-top-left-radius: 65px;
+    border-bottom-right-radius: 65px;
+    margin-top: 10px;
 }
 
-/**
- * Checkbox variables
- * =============================================================================
- */
+    #button:hover {
+        /*    border: 2px #c1a656 solid; */
+        background-color: rgb(191, 155, 48);
+    }
+
+
+
+
+/*
+
 $checkbox-spacer-y: 0.5rem;
 $checkbox-spacer-x: 1rem;
 
@@ -116,12 +136,7 @@ $checkbox-checked-bg-color: dodgerblue;
 $checkbox-disabled-bg-color: darkgray;
 $checkbox-disabled-border-color: darkgray;
 
-/**
- * Checkbox
- * @requires checkbox.variables
- * {@link https://codepen.io/belyan/full/GdKWRd/ Examples}
- * =============================================================================
- */
+
 .checkbox {
   position: relative;
   display: flex;
@@ -217,4 +232,5 @@ $checkbox-disabled-border-color: darkgray;
   &-input:disabled:checked + &-label::before {
     background-color: $checkbox-disabled-bg-color;
   }
-}
+    
+}*/
